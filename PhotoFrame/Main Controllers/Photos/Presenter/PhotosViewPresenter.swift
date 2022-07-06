@@ -24,7 +24,7 @@ final class PhotosViewPresenter: PhotosViewPresenterInterface {
 	private let interactor: ImageInfoInteractorInterface = ImageInfoInteractor()
 	
 	// MARK: - Interface
-	var delegate: PhotosViewControllerInterface?
+	weak var delegate: PhotosViewControllerInterface?
 	var images: [ImageInfo] = []
 	
 	func presenterFetchData() {

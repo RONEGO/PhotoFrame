@@ -41,7 +41,7 @@ final class ShowingViewPresenter: ShowingViewPresenterInterface {
 	
 	// MARK: - Interface
 	// delegate
-	var delegate: ShowingViewControllerInterface?
+	weak var delegate: ShowingViewControllerInterface?
 	var images: [ImageInfo] = []
 	
 	// functions
