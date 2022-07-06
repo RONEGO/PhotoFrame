@@ -1,7 +1,7 @@
 # PhotoFrame (by Yegor Geronin)
 Приложение для просмотра фотографий на плашете или телефоне.
 
-[![](https://sun9-west.userapi.com/sun9-61/s/v1/ig2/qHzHVYTw-rLoPxfgNTC1BvJI1oddRES0uzxJG6lwweYBFz0gcdJkjS8WQy4MqxeOyJYECiJ7a0OmsAgN_DdByo_R.jpg?size=120x120&quality=96&type=album)](http://https://sun9-west.userapi.com/sun9-61/s/v1/ig2/qHzHVYTw-rLoPxfgNTC1BvJI1oddRES0uzxJG6lwweYBFz0gcdJkjS8WQy4MqxeOyJYECiJ7a0OmsAgN_DdByo_R.jpg?size=120x120&quality=96&type=album)
+[![](https://psv4.vkuseraudio.net/s/v1/d/CQ6PhVhcpuOuesxOI1ZUEYGVonBW80Tm6LrlGYRal5zxaHeI592rBDyxXVhqywC82M6FOCk_KVh82mi2dTFZOMrHx6nR5k_b2qAoelAHfUPE4BeCpBMF7g/Artboard_1.png)](http://geronin.com)
 
 ### Table of contents:
 - Стек приложения
@@ -20,7 +20,7 @@
 Приложение написано под архитектуру **VIPER** (без использования Router из-за отсутствия большого количества экранов). Вся схему представлена на картинке ниже.
 
 ---
-[![Architecture](https://sun9-west.userapi.com/sun9-47/s/v1/ig2/hxU4TLKAlJoIq53gxVOl97DEnPDCyWmUBO1ZykYvpfYZM5M3zNoXmx-59PypDp1oUjznIA-FoJGjCt8jUjtePLD9.jpg?size=1104x826&quality=96&type=album "Architecture")](https://sun9-west.userapi.com/sun9-47/s/v1/ig2/hxU4TLKAlJoIq53gxVOl97DEnPDCyWmUBO1ZykYvpfYZM5M3zNoXmx-59PypDp1oUjznIA-FoJGjCt8jUjtePLD9.jpg?size=1104x826&quality=96&type=albumhttp:// "Architecture")
+[![](https://psv4.userapi.com/c536132/u159803114/docs/d25/d13465b8828b/Untitled_Diagram_drawio-3.png?extra=8jaiXHYoRdRdJd3NFWxatDAG_MXkuBHpTXJJNpI8CI8IWymDQ1I58amHh6PxTplrP-wTm5MZrzWuYGsWYnOdT-wtfGYiYHh23CxQIoWT8kH-1SttPc8EhrOOeswLEGgwxTbxLkWuxOJcdzXRlRoMQTni)](http://https://www.raywenderlich.com/8440907-getting-started-with-the-viper-architecture-pattern)
 ---
 
 Основным контроллером приложения является кастомный TabBarViewController, который наследуется от UITabBarController. У него есть 2 итема с контроллерами: ShowingViewController и PhotosViewController. Контроллеры образуют слой View.
